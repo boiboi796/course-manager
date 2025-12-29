@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo">
+            <p>
+            <img class="logo-img" src="./views/logo.png" alt="">
+            <span style="padding-bottom: 180px; font-size: 120%; ">BOIBOI</span>
+            </p>
+        </h2>
+        <nav class="navigaion" >
+            <b>
+            <marquee behavior="scroll" direction="left">
+                <span style="font-size: 110%; font-weight: bold; color: #ffffff; background-color: #0d1d36;">Keep pushing, you've got this! 💪</span>
+            </marquee>
+            </b>
+        </nav>
+        <span>
+        <button id="home" class="sign-in">Sign In</button>
+        <button id="home" class="get-demo">Home</button>
+        </span>
+    </header>
+    <main class="main">
+        <!-- <div class="layout">
+            <aside class="left">
+
+            </aside>
+            <main class="content">
+
+            </main>
+            <aside class="right">
+
+            </aside>
+        </div> -->
+        <div class="mainlayout">
+            <div class="div1">
+               <button type="button" id="addcoursebtn">Add Courses ➕</button>
+                <button type="button" id="deletecoursebtn">Delete Courses ➖</button>
+                <button type="button" id="editcoursebtn">Edit Courses 🪥</button>
+                <button type="button" id="seelistbtn">See lists 📃</button>
+                <button type="button"></button>
+            </div>
+            <div class="div2">
+                
+                <div class="welcome" id="welcome">
+                    
+                    <center>
+                        <img class="logo-img2" src="./views/logo.png" alt="">
+                         <p style="font-size: 10vh; color: #0d1d36; font-weight: 700; font-family: Helvetica, sans-serif;">Welcome to BoiBoi Course Support</p>
+                    <span style="padding: 2px; font-size: 300%; color: gray;">we make life easier...</span></center>
+                </div>
+                <div class="courses" id="courses">
+
+                </div>
+                <div class="add-courses" id="addcourse">
+                    <center><h2>ADD NEW COURSES</h2></center>
+                  <div class="form-add-courses">
+                    <form action="post" id="formaddcourse">
+                        Course title<input class="inputcoursetitle" type="text" name="course title" placeholder="course title...">
+                        <br>
+                        <br>
+                         <br>
+                        <br> 
+                        <br>
+                        <p>
+                            Course code and Unit
+                        <input class="inputcoursecode" type="text" name="course code" placeholder="course code...">
+                        <input class="inputcourseunit" type="number" name="course unit" placeholder="course unit" min="1" max="5">
+                        </p>
+                       <p>
+                        <br>
+                        <button>Add &dagger;</button>
+                        <button type="button">Cancel</button>
+                       </p> 
+                    </form>
+                  </div>
+                </div>
+                <div class="edit-courses" id="editcourse">
+                </div>
+                <div class="delete-courses" id="deletecourse">
+                </div>
+            </div>
+            <div class="div3" id="quotes">
+                
+            </div>
+        </div>
+         <script src="script.js">
+            
+         </script>
+    </main>
+    <footer></footer>
+   
+</body>
+</html>
